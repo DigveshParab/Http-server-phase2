@@ -74,3 +74,8 @@ public class HttpServer {
 // 4. close the socket with the client
 
 // NOTE: server does not have to remember its previous cliet connection
+
+
+// ServerSocket(port)
+// 1. it implements a socket that can be used to listen to and accept client connections.
+// 2. it establishes a port (can be specified) where it waits for connection with clients.
