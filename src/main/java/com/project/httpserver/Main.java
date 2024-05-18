@@ -1,16 +1,6 @@
 package main.java.com.project.httpserver;
-
-//import main.java.com.project.httpserver.problemdomain.HttpServer;
-
-//import com.sun.net.httpserver.HttpServer;
-import main.java.com.project.httpserver.handlers.GoodbyeHandler;
-import main.java.com.project.httpserver.handlers.HelloHandler;
-import main.java.com.project.httpserver.handlers.RootHandler;
 import main.java.com.project.httpserver.problemdomain.HttpServerNew;
-
 import java.io.IOException;
-import java.net.InetSocketAddress;
-import java.net.ServerSocket;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
