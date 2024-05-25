@@ -18,10 +18,14 @@ public class Main {
 
 // next agenda
 // 1. change response based on different url ✅
-// 2. handle GEt|POST|PUT|DELETE requests in the code
-// 3. handle different data types as response text|JSON|docs|images|videos|html
-// 4. accept different data types as params text|JSON|docs|images|videos|html
-// 5. send mail when specific url is hit
-// 6. connect to database
+// 2. handle GEt|POST|PUT|DELETE requests in the code ✅
+// 3. handle different data types as response text✅|JSON✅|docs|images|videos|html
+// - - create dummy data and apply these methods ✅
+// 4. accept different data types as params text✅|int✅
+// accept data from response body and perform DRUD operations ✅
+
+// 5. send mail when specific url is hit ✅
+// 6. connect to database  ✅
+// related operations
 // +. connect with frontend
-// +. using threads to handle multiple clients
+// +. using threads to handle multiple clients ✅

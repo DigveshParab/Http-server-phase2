@@ -1,9 +1,8 @@
 package main.java.com.project.httpserver.problemdomain;
 
 import com.sun.net.httpserver.HttpServer;
-import main.java.com.project.httpserver.handlers.GoodbyeHandler;
-import main.java.com.project.httpserver.handlers.HelloHandler;
-import main.java.com.project.httpserver.handlers.RootHandler;
+import main.java.com.project.httpserver.handlers.*;
+import main.java.com.project.httpserver.handlers.MailHandler;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -30,6 +29,11 @@ public class HttpServerNew {
         server.createContext("/", new RootHandler());
         server.createContext("/hello", new HelloHandler());
         server.createContext("/goodbye", new GoodbyeHandler());
+        server.createContext("/employee", new EmployeeHandler());
+        server.createContext("/item", new ItemHandler());
+        server.createContext("/mail", new MailHandler());
+        server.createContext("/db", new DatabaseHandler());
+
     }
 
     private void setExecutor(HttpServer server){
